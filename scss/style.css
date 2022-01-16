@@ -1,0 +1,89 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container {
+  border: 0.25rem solid #4663c7;
+  border-radius: 1rem;
+}
+
+#form__title {
+  color: #4663c7;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+}
+
+#inputEmail {
+  border-radius: 10px;
+  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+
+#inputPassword {
+  border-radius: 10px;
+  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+
+#zipCode {
+  border-radius: 10px;
+  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+
+#signIn {
+  border-radius: 10px;
+  background-color: #6906eb;
+  color: white;
+}
+
+#inputGender {
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+
+#inputBirthday {
+  border-radius: 10px;
+  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+
+#form__terms {
+  font-size: 0.6rem;
+  color: #afaeae;
+}
+
+#form__description {
+  font-size: 1rem;
+  color: #94b2fa;
+  font-family: "Nunito", sans-serif;
+}
+
+#form__description-title {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #6906eb;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-family: "Nunito", sans-serif;
+  line-height: 3.2rem;
+}
+
+#divider {
+  border-right: 0.25rem solid #e2ebfa;
+}
+/*# sourceMappingURL=style.css.map */
